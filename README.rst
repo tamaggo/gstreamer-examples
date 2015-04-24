@@ -25,10 +25,15 @@ You'll find the following examples:
    * - Name
      - Description
 
-   * - ``test_gst_appsrc_testvideo_mp4mux.py``: 
+   * - ``test_gst_appsrc_testvideo_mp4mux.py``
      - Demonstrates how to create a synthetic test video, that can be used
        to test synchronization features.
 
+   * - ``test_gst_rtsp_subtitles_server.py``
+     - gst-rtsp-server demo, offering subtitles
+
+   * - ``test_gst_rtsp_subtitles_client.py``
+     - client for ``test_gst_rtsp_subtitles_server.py``
 
 License
 #######
