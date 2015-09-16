@@ -35,6 +35,10 @@ You'll find the following examples:
    * - ``test_gst_rtsp_subtitles_client.py``
      - client for ``test_gst_rtsp_subtitles_server.py``
 
+   * - ``test_gst_rtsp_server.py``
+     - Server for ``gst-launch-1.0 playbin uri=rtsp://localhost:8554/test``
+       or ``gst-launch-1.0 rtspsrc location=rtsp://localhost:8554/test latency=50 ! decodebin ! autovideosink``
+
 License
 #######
 
